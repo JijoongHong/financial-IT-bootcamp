@@ -97,7 +97,7 @@
 
 - **Response body**
 
-| **엘리먼트**** 명 **|** 타입 **|** Depth **|** 배열 ****구분** | **설명** | **값 구분** |
+| **엘리먼트 명** | **타입** | **Depth** | **배열 구분** | **설명** | **값 구분** |
 | --- | --- | --- | --- | --- | --- |
 | status | String | 1 | N | 응답 상태 코드 |
 | result | String | 1 | N | 응답 상태에 대한 결과값 | Success : 성공(정상)Fail : 실패(오류) |
@@ -134,7 +134,7 @@
 
 - **Response body**
 
-| **엘리먼트명 ** | **타입** | **Depth** | **배열구분** | **설명** | **값 구분** |
+| **엘리먼트명** | **타입** | **Depth** | **배열구분** | **설명** | **값 구분** |
 | --- | --- | --- | --- | --- | --- |
 | status | String | 1 | N | 응답 상태 코드 |
 | result | String | 1 | N | 응답 상태에 대한 결과값 | Success : 성공(정상)Fail : 실패(오류) |
@@ -180,7 +180,7 @@
 
 - **Response body**
 
-| **엘리먼트 명 ** | **타입** | **Depth** | **배열구분** | **설명** | **값 구분** |
+| **엘리먼트 명** | **타입** | **Depth** | **배열구분** | **설명** | **값 구분** |
 | --- | --- | --- | --- | --- | --- |
 | status | String | 1 | N | 응답 상태 코드 |
 | result | String | 1 | N | 응답 상태에 대한 결과값 | Success : 성공(정상)Fail : 실패(오류) |
@@ -199,7 +199,8 @@
 | isCaution | Boolean | 2 | N | 주의종목 여부 |
 | isDanger | Boolean | 2 | N | 위험종목 여부 |
 
-- **샘플 JSON예제**
+- **샘플 JSON예제** 
+
 | **실패할 경우 샘플** |
 | --- |
 | {&quot;status&quot;: &quot;400&quot;, &quot;result&quot;:&quot;fail&quot;,&quot;description&quot;:&quot;BAD REQUEST&quot;}|
