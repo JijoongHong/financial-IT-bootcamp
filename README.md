@@ -59,7 +59,7 @@
 
 - **Response body**
 
-| **엘리먼트**** 명 **|** 타입 **|** Depth **|** 배열 ****구분** | **설명** | **값 구분** |
+| **엘리먼트 명** | **타입** | **Depth** | **배열 구분** | **설명** | **값 구분** |
 | --- | --- | --- | --- | --- | --- |
 | status | String | 1 | N | 응답 상태 코드 |
 | result | String | 1 | N | 응답 상태에 대한 결과값 | Success : 성공(정상)Fail : 실패(오류) |
@@ -202,10 +202,11 @@
 - **샘플 JSON예제**
 | **실패할 경우 샘플** |
 | --- |
-|{&quot;status&quot;: &quot;400&quot;, &quot;result&quot;:&quot;fail&quot;,&quot;description&quot;:&quot;BAD REQUEST&quot;}|
-|{&quot;status&quot;: &quot;404&quot;, &quot;result&quot;:&quot;fail&quot;,&quot;description&quot;:&quot;NOT FOUND&quot;}|
+| {&quot;status&quot;: &quot;400&quot;, &quot;result&quot;:&quot;fail&quot;,&quot;description&quot;:&quot;BAD REQUEST&quot;}|
+| {&quot;status&quot;: &quot;404&quot;, &quot;result&quot;:&quot;fail&quot;,&quot;description&quot;:&quot;NOT FOUND&quot;}|
 
 | **성공할 경우 샘플** |
-|{&quot;status&quot;: &quot;200&quot;, &quot;result&quot;: &quot;sucess&quot;, &quot;description&quot;: &quot;OK&quot;, &quot;data&quot;: { &quot;code&quot; : &quot;317690&quot;, &quot;codeName&quot;: &quot;퀀타매트릭스&quot;,&quot;price&quot;: &quot;29100&quot;, &quot;diffRate:: &quot;29.91&quot;,&quot;volume&quot;: &quot;5245346&quot;,&quot;marketCap&quot;: &quot;4565&quot;,&quot;capitalStock&quot;: &quot;73&quot;,&quot;PER&quot;: &quot;20.28&quot;,&quot;PBR&quot;: &quot;13.13&quot;,&quot;ROE&quot;: &quot;1165.6&quot;,&quot;isCaution&quot;: &quot;false&quot;,&quot;isDanger&quot;: &quot;false&quot;}} |
+| --- |
+| {&quot;status&quot;: &quot;200&quot;, &quot;result&quot;: &quot;sucess&quot;, &quot;description&quot;: &quot;OK&quot;, &quot;data&quot;: { &quot;code&quot; : &quot;317690&quot;, &quot;codeName&quot;: &quot;퀀타매트릭스&quot;,&quot;price&quot;: &quot;29100&quot;, &quot;diffRate:: &quot;29.91&quot;,&quot;volume&quot;: &quot;5245346&quot;,&quot;marketCap&quot;: &quot;4565&quot;,&quot;capitalStock&quot;: &quot;73&quot;,&quot;PER&quot;: &quot;20.28&quot;,&quot;PBR&quot;: &quot;13.13&quot;,&quot;ROE&quot;: &quot;1165.6&quot;,&quot;isCaution&quot;: &quot;false&quot;,&quot;isDanger&quot;: &quot;false&quot;}} |
 
 
