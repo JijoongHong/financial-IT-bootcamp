@@ -15,33 +15,23 @@
 | **파라미터명** | **타입** | **필수여부** | **설명** |
 | --- | --- | --- | --- |
 | codeName | String | **Y** | 조회하고자하는 종목명 |
-|
- |
- |
- |
- |
-|
- |
- |
- |
- |
+
 
 - **Response body**
 
 | **엘리먼트**** 명 **|** 타입 **|** Depth **|** 배열 ****구분** | **설명** | **값 구분** |
 | --- | --- | --- | --- | --- | --- |
 | status | String | 1 | N | 응답 상태 코드 |
- |
 | Result | String | 1 | N | 응답 상태에 대한 결과값 | Success : 성공(정상)Fail : 실패(오류) |
 | description | String | 1 | N | 응답 결과에 대한 설명 |
- |
 | theme | String | 1 | N | 요청된 종목코드 종목의 테마명 |
- |
+ 
 
 - 샘플 JSON예제
 
-|
-- 실패할 경우 샘플{&quot;status&quot;: &quot;400&quot;, &quot;result&quot;:&quot;fail&quot;,&quot;description&quot;:&quot;BAD REQUEST&quot;}{&quot;status&quot;: &quot;404&quot;, &quot;result&quot;:&quot;fail&quot;,&quot;description&quot;:&quot;NOT FOUND&quot;}
+
+- 실패할 경우 샘플{&quot;status&quot;: &quot;400&quot;, &quot;result&quot;:&quot;fail&quot;,&quot;description&quot;:&quot;BAD REQUEST&quot;}{&quot;status&quot;: &quot;404&quot;, &quot;result&quot;:&quot;fail&quot;,&quot;description&quot;:&quot;NOT FOUND&quot;} |
+| --- |
 
 -성공할 경우 샘플{&quot;status&quot;: &quot;200&quot;, &quot;result&quot;: &quot;sucess&quot;, &quot;description&quot;: &quot;OK&quot;, &quot;theme&quot;: &quot;2차전지&quot;} |
 | --- |
